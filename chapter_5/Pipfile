@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jupyter = "*"
+numpy = "*"
+pandas = "*"
+matplotlib = "*"
+scikit-learn = "*"
+seaborn = "*"
+flask = "*"
+requests = "*"
+gunicorn = "*"
+awscli = "*"
+
+[dev-packages]
+awsebcli = "*"
+
+[requires]
+python_version = "3.9"
